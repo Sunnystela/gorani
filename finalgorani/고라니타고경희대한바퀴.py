@@ -43,7 +43,7 @@ def change_address(api_key, address):
         print("주소를 찾을 수 없습니다.")
         return None, None
 
-api_key = "AIzaSyAYvTJludX6hqNVwjzj5XbJ2JY9m57fnLY"
+api_key = "구글api key를 입력하세요"
 
 latitude, longitude = change_address(api_key, address)
 if latitude is not None and longitude is not None:
